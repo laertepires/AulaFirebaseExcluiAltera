@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "389674012812",
+    "firebase_url": "https://fir-f8138.firebaseio.com",
+    "project_id": "fir-f8138",
+    "storage_bucket": "fir-f8138.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389674012812:android:162d646977cb7c51",
+        "android_client_info": {
+          "package_name": "thiagocury.eti.br.aulafirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389674012812-k2nc7uclgmaukmcmmrb4fkl2uoinl9tu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtKKHhWC6Hn_DookKkJnkqZeNJofURV5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

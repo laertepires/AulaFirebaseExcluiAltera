@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>teste</title>
+		<script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>  
+	</head>
+	<body>
+		<input type="text" id="Nome" placeholder="Nome"/>
+		<input type="number" id="Idade" placeholder="Idade"/>
+		<input type="button" onclick="cadastrarJson()" value="Cadastrar"/>
+		<div id="jsonOut"></div>
+		<script>									
+			var firebaseRef = new Firebase("https://TEU-FIREBASE.com/");
+
+			function cadastrarJson(){
+				var nome = document.getElementById("Nome").value;
+				var idade = parseInt(document.getElementById("Idade").value);
+				var refCli = firebaseRef.child("contatos");
+				var newCliSet = refCli.push();
+				newCliSet.set({"nome":nome,"idade":idade});
+			}
+		</script>  		
+	</body>
+</html>
